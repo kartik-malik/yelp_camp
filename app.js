@@ -50,7 +50,7 @@ mongoose.connect("mongodb+srv://kartik:kartik@yelpcamp-qgn9t.mongodb.net/test?re
 
 
 //////////
-app.listen(3000,function(){
+app.listen(process.env.PORT,process.env.IP,function(){
 
 
 })
