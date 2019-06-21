@@ -4,7 +4,7 @@ var  express       =require("express");
      bodyParser    =require("body-parser"),
      mongoose      =require("mongoose"),
      Campground   =require("./models/campground");
-     seedDB       =require("./seed");
+     
      Comment   =require("./models/comment"),
      User      =require("./models/user"),
      passport  =require("passport"),
