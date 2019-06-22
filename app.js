@@ -51,6 +51,6 @@ mongoose.connect("mongodb+srv://kartik:kartik@yelpcamp-qgn9t.mongodb.net/test?re
 
 //////////
 app.listen(process.env.PORT,process.env.IP,function(){
-
+console.log(process.env.PORT);
 
 })
